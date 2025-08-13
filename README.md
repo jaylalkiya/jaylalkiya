@@ -2,7 +2,7 @@
 ![Welcome Banner](https://img.shields.io/badge/Welcome%20to%20My%20GitHub-222831?style=for-the-badge&logo=github&logoColor=white)
 
 # 👋 Hi, I'm Jay Lalkiya  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F7DC6F&size=25&lines=BCA+Semester+5+Student;Web+Developer;Tech+Enthusiast;Always+Learning+New+Things)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F7DC6F&size=25&lines=BCA+Student;Web+Developer;Tech+Enthusiast;Always+Learning+New+Things)](https://git.io/typing-svg)
 
 ---
 
@@ -15,7 +15,6 @@
 ### 🌐 **3D Portfolio Website**  
 > Interactive portfolio using HTML, CSS, JavaScript   
 
----
 ---
 
 ## 📫 Let's Connect  
