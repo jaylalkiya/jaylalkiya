@@ -22,16 +22,7 @@
 ### 🌐 **3D Portfolio Website**  
 > Interactive portfolio using HTML, CSS, JavaScript, PHP & Three.js  
 
-### 📚 **Student Management System (JSP)**  
-> Manage students, attendance, and results using JSP, Servlets, MySQL  
-
 ---
-
-## 📊 GitHub Stats  
-![Jay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)  
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=radical&hide_border=false)  
-
 ---
 
 ## 📫 Let's Connect  
