@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://jaylalkiyaportfolio.vercel.app/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=C0392B&center=true&vCenter=true&width=460&lines=Cyber+Security+Trainee+(NSQF+L4);SOC+Monitoring+%2B+VAPT+Fundamentals;Networking+%26+Firewall+Basics;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=C0392B&center=true&vCenter=true&width=460&lines=Cyber+Security+Trainee+(NSQF+L4);I+build+honeypots%2C+detectors+and+the+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
   </a>
 </p>
 
@@ -45,6 +45,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 ![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-2C3E50?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-8E44AD?style=for-the-badge&logo=readthedocs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python%20Security%20Tooling-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **Supporting technical background** (used to understand what I'm defending)
 
@@ -55,26 +56,73 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ---
 
-## 📌 Relevant work
+## 📌 Security projects
 
-### 📚 CodeShelf — Multi-Module Web Application
-`Java` `JSP` `MySQL` `Apache Tomcat`
+Three tools built during the program. Each one implements the defensive side
+*and* the offensive side, because building the attack is what taught me where
+the detection has to go.
 
-Built with authentication and **role-based access control** as first-class concerns — proper session management, MVC structure, and a MySQL schema designed with least-privilege access in mind. Good hands-on exposure to where access-control bugs actually creep into real apps.
+### 🍯 GullakTrap — Multi-Protocol Honeypot
+`Python` `Flask` `Paramiko` `SQLite` `MITRE ATT&CK`
 
-[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/CodeShelf)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/CodeShelf?style=flat-square&color=f7dc6f)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeShelf?style=flat-square&color=2ea44f)
+Seven decoy services — HTTP, FTP, SSH, Telnet, SMB, SMTP, SNMP — that log every
+credential tried and every command run. The SSH sensor serves a fake filesystem
+and records inter-keystroke timing, so a session replays at the speed it was
+typed. Each event is scored and mapped to an ATT&CK technique, and a bundled
+red-team simulator speaks all seven protocols so the detection chain can be
+proven end to end.
+
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/gullaktrap)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/gullaktrap?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/gullaktrap?style=flat-square&color=2ea44f)
 
 <br />
 
-### ⛅ Weather Application
-`JavaScript` `REST API`
+### 🖼️ StegoVault — Steganography & Steganalysis
+`Python` `AES-256-GCM` `PBKDF2` `RS Analysis`
 
-Focused on handling untrusted input and failure states cleanly — validating API responses and preventing the UI from breaking (or leaking errors) on malformed input. Small project, but a decent practical exercise in input handling discipline.
+Hides an encrypted message in the low bit of a PNG, then detects it. The
+passphrase goes through PBKDF2 at 200,000 iterations; a wrong key or a single
+flipped bit is refused rather than silently mangled. The detector implements RS
+Analysis (Fridrich, Goljan & Du, 2001) and scores any image 0–100 — including
+images produced by other tools, which is how I know it isn't just recognising
+its own output.
 
-[![Live](https://img.shields.io/badge/Live%20Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://weather-app-eight-plum-25.vercel.app)
-[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/WeatherApp)
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/StegoVault)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/StegoVault?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/StegoVault?style=flat-square&color=2ea44f)
+
+<br />
+
+### 📡 Wifi-Sentry — Rogue Access Point Monitor
+`Python` `Windows` `MITRE ATT&CK T1557 / T1498`
+
+Detects evil-twin access points without monitor mode or Npcap, by reading the
+beacon metadata Windows already collects. An attacker can clone an SSID in five
+seconds, but not the BSSID behind it — so the tool baselines the real radios and
+alerts on a name broadcast from a MAC that was never there. Passive only: never
+transmits, never deauthenticates, never captures traffic.
+
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/Wifi-Sentry)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/Wifi-Sentry?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Wifi-Sentry?style=flat-square&color=2ea44f)
+
+---
+
+## 💻 Development background
+
+Before security I built applications, which is why I can reason about *why* a
+vulnerability exists rather than only spotting that one does.
+
+**[CodeShelf](https://github.com/jaylalkiya/CodeShelf)** — `Java` `JSP` `MySQL`
+`Tomcat` · multi-module web app built with authentication and role-based access
+control as first-class concerns: session management, MVC structure, and a schema
+designed around least privilege.
+
+**[Weather Application](https://github.com/jaylalkiya/WeatherApp)** —
+`JavaScript` `REST API` · [live demo](https://weather-app-eight-plum-25.vercel.app)
+· small project, useful practice in validating untrusted API responses and
+failing cleanly on malformed input.
 
 ---
 
