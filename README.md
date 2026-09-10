@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="https://jaylalkiyaportfolio.vercel.app/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=C0392B&center=true&vCenter=true&width=460&lines=Cyber+Security+Trainee+(NSQF+L4);I+build+honeypots%2C+detectors+and+the+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=E74C3C&center=true&vCenter=true&width=600&lines=Cyber+Security+Trainee+(NSQF+L4);I+build+honeypots%2C+detectors+and+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jaylalkiya&label=Profile%20Views&color=C0392B&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=jaylalkiya&label=Profile%20Views&color=E74C3C&style=for-the-badge" alt="Profile views" />
   <img src="https://visitor-badge.laobi.icu/badge?page_id=jaylalkiya.jaylalkiya&title=Visitors&color=2C3E50" alt="Visitors" />
   <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=6f42c1&logo=github" alt="Followers" /></a>
 </p>
@@ -31,7 +31,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 <p align="center">
   <img src="https://img.shields.io/badge/Location-Ahmedabad,%20India-2C3E50?style=for-the-badge&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open%20To-Security%20Internships-C0392B?style=for-the-badge&logo=handshake&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open%20To-Security%20Internships-E74C3C?style=for-the-badge&logo=handshake&logoColor=white" />
   <img src="https://img.shields.io/badge/Availability-Immediate-16A085?style=for-the-badge&logo=clockify&logoColor=white" />
 </p>
 
@@ -41,7 +41,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ![Networking](https://img.shields.io/badge/Networking%20Fundamentals-1D63ED?style=for-the-badge&logo=cisco&logoColor=white)
 ![Firewalls](https://img.shields.io/badge/Firewalls%20%26%20Access%20Control-16A085?style=for-the-badge&logo=cloudflare&logoColor=white)
-![SOC](https://img.shields.io/badge/SOC%20Monitoring-C0392B?style=for-the-badge&logo=splunk&logoColor=white)
+![SOC](https://img.shields.io/badge/SOC%20Monitoring-E74C3C?style=for-the-badge&logo=splunk&logoColor=white)
 ![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-2C3E50?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-8E44AD?style=for-the-badge&logo=readthedocs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
