@@ -43,6 +43,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 ![Firewalls](https://img.shields.io/badge/Firewalls%20%26%20Access%20Control-16A085?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![SOC](https://img.shields.io/badge/SOC%20Monitoring-E74C3C?style=for-the-badge&logo=splunk&logoColor=white)
 ![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-2C3E50?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Load Testing](https://img.shields.io/badge/Load%20%26%20Resilience%20Testing-D35400?style=for-the-badge&logo=apachejmeter&logoColor=white)
 ![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-8E44AD?style=for-the-badge&logo=readthedocs&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python%20Security%20Tooling-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -106,6 +107,24 @@ transmits, never deauthenticates, never captures traffic.
 [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/Wifi-Sentry)
 ![Stars](https://img.shields.io/github/stars/jaylalkiya/Wifi-Sentry?style=flat-square&color=f7dc6f)
 ![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Wifi-Sentry?style=flat-square&color=2ea44f)
+
+<br />
+
+### 🌩️ ScopeStorm — Authorized Load & Resilience Console
+`Python` `Tkinter` `Threading` `SHA-256 Audit Chain`
+
+Generates controlled HTTP load — but refuses to fire until a Rules-of-Engagement
+file authorizes the exact target, the concurrency / RPS ceilings, and the time
+window, and it aborts itself the moment error rate or p95 latency crosses the
+configured thresholds. Every run is written to a tamper-evident, hash-chained
+audit log that verifies on read, so any later edit or deletion breaks the chain
+and the whole engagement can be proven after the fact. The project was really
+about the guardrails: building a load tool that physically can't be pointed
+somewhere it wasn't cleared for.
+
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/ScopeStorm)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=2ea44f)
 
 ---
 
