@@ -59,9 +59,27 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ## 📌 Security projects
 
-Three tools built during the program. Each one implements the defensive side
-*and* the offensive side, because building the attack is what taught me where
-the detection has to go.
+Four tools built during the program, newest first. Each one implements the
+defensive side *and* the offensive side, because building the attack is what
+taught me where the detection has to go.
+
+### 🌩️ ScopeStorm — Authorized Load & Resilience Console
+`Python` `Tkinter` `Threading` `SHA-256 Audit Chain`
+
+Generates controlled HTTP load — but refuses to fire until a Rules-of-Engagement
+file authorizes the exact target, the concurrency / RPS ceilings, and the time
+window, and it aborts itself the moment error rate or p95 latency crosses the
+configured thresholds. Every run is written to a tamper-evident, hash-chained
+audit log that verifies on read, so any later edit or deletion breaks the chain
+and the whole engagement can be proven after the fact. The project was really
+about the guardrails: building a load tool that physically can't be pointed
+somewhere it wasn't cleared for.
+
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/ScopeStorm)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=2ea44f)
+
+<br />
 
 ### 🍯 GullakTrap — Multi-Protocol Honeypot
 `Python` `Flask` `Paramiko` `SQLite` `MITRE ATT&CK`
@@ -76,22 +94,6 @@ proven end to end.
 [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/gullaktrap)
 ![Stars](https://img.shields.io/github/stars/jaylalkiya/gullaktrap?style=flat-square&color=f7dc6f)
 ![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/gullaktrap?style=flat-square&color=2ea44f)
-
-<br />
-
-### 🖼️ StegoVault — Steganography & Steganalysis
-`Python` `AES-256-GCM` `PBKDF2` `RS Analysis`
-
-Hides an encrypted message in the low bit of a PNG, then detects it. The
-passphrase goes through PBKDF2 at 200,000 iterations; a wrong key or a single
-flipped bit is refused rather than silently mangled. The detector implements RS
-Analysis (Fridrich, Goljan & Du, 2001) and scores any image 0–100 — including
-images produced by other tools, which is how I know it isn't just recognising
-its own output.
-
-[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/StegoVault)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/StegoVault?style=flat-square&color=f7dc6f)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/StegoVault?style=flat-square&color=2ea44f)
 
 <br />
 
@@ -110,21 +112,19 @@ transmits, never deauthenticates, never captures traffic.
 
 <br />
 
-### 🌩️ ScopeStorm — Authorized Load & Resilience Console
-`Python` `Tkinter` `Threading` `SHA-256 Audit Chain`
+### 🖼️ StegoVault — Steganography & Steganalysis
+`Python` `AES-256-GCM` `PBKDF2` `RS Analysis`
 
-Generates controlled HTTP load — but refuses to fire until a Rules-of-Engagement
-file authorizes the exact target, the concurrency / RPS ceilings, and the time
-window, and it aborts itself the moment error rate or p95 latency crosses the
-configured thresholds. Every run is written to a tamper-evident, hash-chained
-audit log that verifies on read, so any later edit or deletion breaks the chain
-and the whole engagement can be proven after the fact. The project was really
-about the guardrails: building a load tool that physically can't be pointed
-somewhere it wasn't cleared for.
+Hides an encrypted message in the low bit of a PNG, then detects it. The
+passphrase goes through PBKDF2 at 200,000 iterations; a wrong key or a single
+flipped bit is refused rather than silently mangled. The detector implements RS
+Analysis (Fridrich, Goljan & Du, 2001) and scores any image 0–100 — including
+images produced by other tools, which is how I know it isn't just recognising
+its own output.
 
-[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/ScopeStorm)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=f7dc6f)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=2ea44f)
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/StegoVault)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/StegoVault?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/StegoVault?style=flat-square&color=2ea44f)
 
 ---
 
