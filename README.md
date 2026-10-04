@@ -8,7 +8,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=jaylalkiya&label=Profile%20Views&color=E74C3C&style=for-the-badge" alt="Profile views" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=jaylalkiya.jaylalkiya&title=Visitors&color=2C3E50" alt="Visitors" />
   <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=6f42c1&logo=github" alt="Followers" /></a>
 </p>
 
@@ -60,12 +59,12 @@ My background is in software development (React, Node.js, Java), which turned ou
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jaylalkiya&show_icons=true&count_private=true&hide_border=true&title_color=E74C3C&icon_color=E74C3C&text_color=C9D1D9&bg_color=0D1117" alt="Jay's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jaylalkiya&show_icons=true&hide_border=true&title_color=E74C3C&icon_color=E74C3C&text_color=C9D1D9&bg_color=0D1117" alt="Jay's GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaylalkiya&layout=compact&hide_border=true&title_color=E74C3C&text_color=C9D1D9&bg_color=0D1117&langs_count=8" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaylalkiya&hide_border=true&background=0D1117&stroke=E74C3C&ring=E74C3C&fire=E74C3C&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=jaylalkiya&hide_border=true&background=0D1117&stroke=E74C3C&ring=E74C3C&fire=E74C3C&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
 </p>
 
 ---
