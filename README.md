@@ -57,11 +57,43 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ---
 
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jaylalkiya&show_icons=true&count_private=true&hide_border=true&title_color=E74C3C&icon_color=E74C3C&text_color=C9D1D9&bg_color=0D1117" alt="Jay's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaylalkiya&layout=compact&hide_border=true&title_color=E74C3C&text_color=C9D1D9&bg_color=0D1117&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaylalkiya&hide_border=true&background=0D1117&stroke=E74C3C&ring=E74C3C&fire=E74C3C&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
+</p>
+
+---
+
 ## 📌 Security projects
 
-Four tools built during the program, newest first. Each one implements the
+Five tools built during the program, newest first. Each one implements the
 defensive side *and* the offensive side, because building the attack is what
 taught me where the detection has to go.
+
+### 🦅 ReconRaptor — Chained Web Recon Pipeline
+`Bash` `Python` `Tkinter` `nmap · nuclei · nikto`
+
+Chains the standard web-recon tools — nmap, whatweb, gobuster/feroxbuster,
+nikto, nuclei, subfinder/httpx — into a single authorized run, writes every
+step to a per-target folder, and rolls the results into a severity-ranked
+HTML + JSON report, from the CLI or a dark Tkinter console. Per-step timeouts,
+graceful skipping of missing tools, resumable runs, and *structured* output
+(nmap XML, nikto JSON, nuclei JSONL) so the report is parsed from machine data
+rather than screen-scraped. The point of chaining it was to see exactly how
+much noise a full recon sweep drops into a defender's logs — which is where the
+detection work starts. Runs only against targets you're authorized to test.
+
+[![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaylalkiya/Recon-Raptor)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/Recon-Raptor?style=flat-square&color=f7dc6f)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Recon-Raptor?style=flat-square&color=2ea44f)
+
+<br />
 
 ### 🌩️ ScopeStorm — Authorized Load & Resilience Console
 `Python` `Tkinter` `Threading` `SHA-256 Audit Chain`
