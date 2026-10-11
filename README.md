@@ -15,7 +15,7 @@ NSQF L4 @ Adani Saksham · open to SOC analyst / cybersecurity internship roles
 </pre>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jaylalkiya&label=Profile%20Views&color=39FF14&style=for-the-badge&labelColor=0A0E0A" alt="Profile views" />
+  <img src="https://hits.sh/github.com/jaylalkiya.svg?style=for-the-badge&label=Profile%20Views&color=39FF14&labelColor=0A0E0A" alt="Profile views" />
   <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=39FF14&labelColor=0A0E0A&logo=github&logoColor=39FF14" alt="Followers" /></a>
 </p>
 
