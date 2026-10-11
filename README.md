@@ -1,4 +1,6 @@
-<h1 align="center">Hey, I'm Jay Lalkiya 👋</h1>
+<p align="center">
+  <img src="banner.svg" alt="Jay Lalkiya — cyber security trainee, SOC &amp; blue team" width="900" />
+</p>
 
 <p align="center">
   <a href="https://jaylalkiyaportfolio.vercel.app/">
@@ -85,7 +87,12 @@ Each one implements the defensive side *and* the offensive side, because
 building the attack is what taught me where the detection has to go.
 
 ### 🍯 GullakTrap — Multi-Protocol Honeypot
-`Python` `Flask` `Paramiko` `SQLite` `MITRE ATT&CK`
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
+![SQLite](https://img.shields.io/badge/SQLite-0A0E0A?style=flat-square&logo=sqlite&logoColor=39FF14)
+![Paramiko](https://img.shields.io/badge/Paramiko-0A0E0A?style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0A0E0A?style=flat-square)
 
 Seven decoy services — HTTP, FTP, SSH, Telnet, SMB, SMTP, SNMP — that log every
 credential tried and every command run. The SSH sensor serves a fake filesystem
@@ -101,7 +108,11 @@ proven end to end.
 <br />
 
 ### 📡 Wifi-Sentry — Rogue Access Point Monitor
-`Python` `Windows` `MITRE ATT&CK T1557 / T1498`
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Windows](https://img.shields.io/badge/Windows-0A0E0A?style=flat-square&logo=windows&logoColor=39FF14)
+![T1557](https://img.shields.io/badge/ATT%26CK-T1557-0A0E0A?style=flat-square&labelColor=0A0E0A)
+![T1498](https://img.shields.io/badge/ATT%26CK-T1498-0A0E0A?style=flat-square&labelColor=0A0E0A)
 
 Detects evil-twin access points without monitor mode or Npcap, by reading the
 beacon metadata Windows already collects. An attacker can clone an SSID in five
@@ -116,7 +127,11 @@ transmits, never deauthenticates, never captures traffic.
 <br />
 
 ### 🌩️ ScopeStorm — Authorized Load & Resilience Console
-`Python` `Tkinter` `Threading` `SHA-256 Audit Chain`
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
+![Threading](https://img.shields.io/badge/Threading-0A0E0A?style=flat-square)
+![SHA-256 Audit Chain](https://img.shields.io/badge/SHA--256%20Audit%20Chain-0A0E0A?style=flat-square)
 
 Generates controlled HTTP load — but refuses to fire until a Rules-of-Engagement
 file authorizes the exact target, the concurrency / RPS ceilings, and the time
@@ -134,7 +149,13 @@ somewhere it wasn't cleared for.
 <br />
 
 ### 🦅 ReconRaptor — Chained Web Recon Pipeline
-`Bash` `Python` `Tkinter` `nmap · nuclei · nikto`
+
+![Bash](https://img.shields.io/badge/Bash-0A0E0A?style=flat-square&logo=gnubash&logoColor=39FF14)
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
+![nmap](https://img.shields.io/badge/nmap-0A0E0A?style=flat-square)
+![nuclei](https://img.shields.io/badge/nuclei-0A0E0A?style=flat-square)
+![nikto](https://img.shields.io/badge/nikto-0A0E0A?style=flat-square)
 
 Chains the standard web-recon tools — nmap, whatweb, gobuster/feroxbuster,
 nikto, nuclei, subfinder/httpx — into a single authorized run, writes every
@@ -153,7 +174,11 @@ detection work starts. Runs only against targets you're authorized to test.
 <br />
 
 ### 🖼️ StegoVault — Steganography & Steganalysis
-`Python` `AES-256-GCM` `PBKDF2` `RS Analysis`
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![AES-256-GCM](https://img.shields.io/badge/AES--256--GCM-0A0E0A?style=flat-square)
+![PBKDF2](https://img.shields.io/badge/PBKDF2-0A0E0A?style=flat-square)
+![RS Analysis](https://img.shields.io/badge/RS%20Analysis-0A0E0A?style=flat-square)
 
 Hides an encrypted message in the low bit of a PNG, then detects it. The
 passphrase goes through PBKDF2 at 200,000 iterations; a wrong key or a single
@@ -173,15 +198,21 @@ its own output.
 Before security I built applications, which is why I can reason about *why* a
 vulnerability exists rather than only spotting that one does.
 
-**[CodeShelf](https://github.com/jaylalkiya/CodeShelf)** — `Java` `JSP` `MySQL`
-`Tomcat` · multi-module web app built with authentication and role-based access
+**[CodeShelf](https://github.com/jaylalkiya/CodeShelf)**
+![Java](https://img.shields.io/badge/Java-0A0E0A?style=flat-square&logo=openjdk&logoColor=39FF14)
+![JSP](https://img.shields.io/badge/JSP-0A0E0A?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-0A0E0A?style=flat-square&logo=mysql&logoColor=39FF14)
+![Tomcat](https://img.shields.io/badge/Tomcat-0A0E0A?style=flat-square&logo=apachetomcat&logoColor=39FF14)
+· multi-module web app built with authentication and role-based access
 control as first-class concerns: session management, MVC structure, and a schema
 designed around least privilege.
 
-**[Weather Application](https://github.com/jaylalkiya/WeatherApp)** —
-`JavaScript` `REST API` · [live demo](https://weather-app-eight-plum-25.vercel.app)
-· small project, useful practice in validating untrusted API responses and
-failing cleanly on malformed input.
+**[Weather Application](https://github.com/jaylalkiya/WeatherApp)**
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=flat-square&logo=javascript&logoColor=39FF14)
+![REST API](https://img.shields.io/badge/REST%20API-0A0E0A?style=flat-square)
+· [live demo](https://weather-app-eight-plum-25.vercel.app) · small project,
+useful practice in validating untrusted API responses and failing cleanly on
+malformed input.
 
 ---
 
