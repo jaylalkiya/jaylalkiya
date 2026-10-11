@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" width="1100" height="220" role="img" aria-label="Jay Lalkiya - cyber security trainee, SOC and blue team">
+  <title>Jay Lalkiya</title>
+
+  <defs>
+    <linearGradient id="p-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3FB950" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#1A7F3C" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="p-sweep" cx="128" cy="150" r="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3FB950" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#3FB950" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(34,2) scale(0.84)">
+    <path d="M128 12 L224 65 V191 L128 244 L32 191 V65 Z"
+          fill="none" stroke="url(#p-frame)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M128 12 L224 65 V191 L128 244 L32 191 V65 Z" fill="url(#p-sweep)"/>
+    <polyline points="54,152 86,152 100,118 118,178 134,138 148,152 202,152"
+              fill="none" stroke="#3FB950" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="202" cy="152" r="7" fill="#3FB950"/>
+  </g>
+
+  <text x="272" y="100"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="62" font-weight="700" letter-spacing="-1">
+    <tspan fill="#8B949E">JAY </tspan><tspan fill="#2EA44F">LALKIYA</tspan>
+  </text>
+
+  <text x="274" y="138"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="21" fill="#8B949E">
+    cyber security trainee <tspan fill="#6E7781">//</tspan> SOC &amp; blue team
+  </text>
+
+  <text x="274" y="172"
+        font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+        font-size="17" fill="#6E7781">
+    honeypots &#183; detectors &#183; rogue-AP monitors &#160;::&#160; MITRE ATT&amp;CK mapped
+  </text>
+
+  <g opacity=".9">
+    <g stroke="#2EA44F" stroke-width="2.5" fill="none" stroke-linecap="square">
+      <path d="M878 92 V76 H894"/>
+      <path d="M1058 76 H1074 V92"/>
+      <path d="M878 104 V120 H894"/>
+      <path d="M1058 120 H1074 V104"/>
+    </g>
+    <text x="976" y="104" text-anchor="middle"
+          font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace"
+          font-size="14" letter-spacing="1" fill="#2EA44F">
+      OPEN TO SOC ROLES
+    </text>
+  </g>
+</svg>
