@@ -8,13 +8,9 @@
   </a>
 </p>
 
-<pre align="center">
-$ whoami
-jay_lalkiya — cyber security trainee // builds the attack to find where the detection goes
-
-$ cat status.txt
-NSQF L4 @ Adani Saksham · open to SOC analyst / cybersecurity internship roles
-</pre>
+<p align="center">
+  <img src="terminal.svg" alt="whoami: jay_lalkiya, cyber security trainee, builds the attack to find where the detection goes. status: NSQF L4 at Adani Saksham, open to SOC analyst and cybersecurity internship roles" width="675" />
+</p>
 
 <p align="center">
   <img src="https://hits.sh/github.com/jaylalkiya.svg?style=for-the-badge&label=Profile%20Views&color=39FF14&labelColor=0A0E0A" alt="Profile views" />
