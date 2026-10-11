@@ -51,7 +51,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 ![Networking](https://img.shields.io/badge/Networking%20Fundamentals-1F8A12?style=for-the-badge&logo=cisco&logoColor=39FF14&labelColor=0A0E0A)
 ![Firewalls](https://img.shields.io/badge/Firewalls%20%26%20Access%20Control-1F8A12?style=for-the-badge&logo=cloudflare&logoColor=39FF14&labelColor=0A0E0A)
 ![SOC](https://img.shields.io/badge/SOC%20Monitoring-39FF14?style=for-the-badge&logo=splunk&logoColor=0A0E0A&labelColor=0A0E0A)
-![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-1F8A12?style=for-the-badge&logo=kalilinux&logoColor=39FF14&labelColor=0A0E0A)
+![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-F85149?style=for-the-badge&logo=kalilinux&logoColor=0A0E0A&labelColor=0A0E0A)
 ![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-39FF14?style=for-the-badge&labelColor=0A0E0A)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK%20Mapping-1F8A12?style=for-the-badge&logoColor=39FF14&labelColor=0A0E0A)
 ![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-1F8A12?style=for-the-badge&logo=readthedocs&logoColor=39FF14&labelColor=0A0E0A)
@@ -85,8 +85,9 @@ My background is in software development (React, Node.js, Java), which turned ou
 Five tools, led with the ones closest to the SOC/blue-team work I'm aiming at.
 Each one implements the defensive side *and* the offensive side, because
 building the attack is what taught me where the detection has to go.
+🟢 detection / blue-team build &nbsp; &nbsp; 🔴 offensive tooling (built to learn the attack)
 
-### 🍯 GullakTrap — Multi-Protocol Honeypot
+### 🟢 🍯 GullakTrap — Multi-Protocol Honeypot
 
 ![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
 ![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
@@ -107,7 +108,7 @@ proven end to end.
 
 <br />
 
-### 📡 Wifi-Sentry — Rogue Access Point Monitor
+### 🟢 📡 Wifi-Sentry — Rogue Access Point Monitor
 
 ![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
 ![Windows](https://img.shields.io/badge/Windows-0A0E0A?style=flat-square&logo=windows&logoColor=39FF14)
@@ -126,7 +127,7 @@ transmits, never deauthenticates, never captures traffic.
 
 <br />
 
-### 🌩️ ScopeStorm — Authorized Load & Resilience Console
+### 🔴 🌩️ ScopeStorm — Authorized Load & Resilience Console
 
 ![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
 ![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
@@ -142,13 +143,13 @@ and the whole engagement can be proven after the fact. The project was really
 about the guardrails: building a load tool that physically can't be pointed
 somewhere it wasn't cleared for.
 
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/ScopeStorm)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=39FF14&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=39FF14&labelColor=0A0E0A)
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=F85149)](https://github.com/jaylalkiya/ScopeStorm)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=F85149&labelColor=0A0E0A)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=F85149&labelColor=0A0E0A)
 
 <br />
 
-### 🦅 ReconRaptor — Chained Web Recon Pipeline
+### 🔴 🦅 ReconRaptor — Chained Web Recon Pipeline
 
 ![Bash](https://img.shields.io/badge/Bash-0A0E0A?style=flat-square&logo=gnubash&logoColor=39FF14)
 ![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
@@ -167,13 +168,13 @@ rather than screen-scraped. The point of chaining it was to see exactly how
 much noise a full recon sweep drops into a defender's logs — which is where the
 detection work starts. Runs only against targets you're authorized to test.
 
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/Recon-Raptor)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/Recon-Raptor?style=flat-square&color=39FF14&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Recon-Raptor?style=flat-square&color=39FF14&labelColor=0A0E0A)
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=F85149)](https://github.com/jaylalkiya/Recon-Raptor)
+![Stars](https://img.shields.io/github/stars/jaylalkiya/Recon-Raptor?style=flat-square&color=F85149&labelColor=0A0E0A)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Recon-Raptor?style=flat-square&color=F85149&labelColor=0A0E0A)
 
 <br />
 
-### 🖼️ StegoVault — Steganography & Steganalysis
+### 🟢 🖼️ StegoVault — Steganography & Steganalysis
 
 ![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
 ![AES-256-GCM](https://img.shields.io/badge/AES--256--GCM-0A0E0A?style=flat-square)
