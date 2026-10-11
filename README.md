@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="status.svg" alt="Status: monitoring, zero active alerts, uptime online" width="300" />
+</p>
+
+<p align="center">
   <a href="https://jaylalkiyaportfolio.vercel.app/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=Cyber+Security+Trainee+(NSQF+L4);I+build+honeypots%2C+detectors+and+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
   </a>
@@ -190,6 +194,22 @@ its own output.
 
 ---
 
+## ▚ MITRE ATT&CK coverage
+
+Techniques actually detected or implemented by the tools above — every badge
+below is backed by real, tested code, not an aspirational checklist.
+
+**GullakTrap**
+![T1110](https://img.shields.io/badge/T1110-Brute%20Force-39FF14?style=flat-square&labelColor=0A0E0A)
+![T1105](https://img.shields.io/badge/T1105-Ingress%20Tool%20Transfer-39FF14?style=flat-square&labelColor=0A0E0A)
+
+**Wifi-Sentry**
+![T1557](https://img.shields.io/badge/T1557-Adversary--in--the--Middle-39FF14?style=flat-square&labelColor=0A0E0A)
+![T1557.004](https://img.shields.io/badge/T1557.004-Evil%20Twin-39FF14?style=flat-square&labelColor=0A0E0A)
+![T1498](https://img.shields.io/badge/T1498-Network%20DoS-39FF14?style=flat-square&labelColor=0A0E0A)
+
+---
+
 ## ▚ Development background
 
 Before security I built applications, which is why I can reason about *why* a
@@ -223,6 +243,12 @@ designed around least privilege.
   <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
   <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
   <a href="https://jaylalkiyaportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=vercel&logoColor=39FF14" /></a>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="soc-board.svg" alt="SOC status board: zero days since last false positive, infinity alerts triaged today, coffee to code ratio unhealthy" width="420" />
 </p>
 
 <br />

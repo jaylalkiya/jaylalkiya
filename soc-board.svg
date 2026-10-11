@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" width="560" height="150" role="img" aria-label="SOC status board: zero days since last false positive, infinity alerts triaged today, coffee to code ratio unhealthy">
+  <title>SOC status board</title>
+  <rect x="2" y="2" width="556" height="146" rx="10" fill="none" stroke="#2EA44F" stroke-opacity=".6" stroke-width="2"/>
+  <g font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace">
+    <text x="24" y="34" font-size="15" font-weight="700" fill="#3FB950" letter-spacing="1">SOC STATUS BOARD</text>
+    <line x1="24" y1="46" x2="536" y2="46" stroke="#21262D" stroke-width="1.5"/>
+
+    <text x="24" y="74" font-size="14" fill="#8B949E">Days since last false positive</text>
+    <text x="536" y="74" font-size="14" fill="#F85149" font-weight="700" text-anchor="end">0</text>
+
+    <text x="24" y="102" font-size="14" fill="#8B949E">Alerts triaged today</text>
+    <text x="536" y="102" font-size="14" fill="#3FB950" font-weight="700" text-anchor="end">&#8734;</text>
+
+    <text x="24" y="130" font-size="14" fill="#8B949E">Coffee-to-code ratio</text>
+    <text x="536" y="130" font-size="14" fill="#F85149" font-weight="700" text-anchor="end">unhealthy</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 30" width="340" height="30" role="img" aria-label="Status: monitoring, zero active alerts, uptime online">
+  <title>status: monitoring</title>
+  <circle cx="9" cy="15" r="6" fill="#3FB950">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="24" y="20" font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="14">
+    <tspan fill="#3FB950" font-weight="700">MONITORING</tspan><tspan fill="#6E7781"> &#183; </tspan><tspan fill="#8B949E">active alerts: </tspan><tspan fill="#3FB950" font-weight="700">0</tspan><tspan fill="#6E7781"> &#183; </tspan><tspan fill="#8B949E">up</tspan>
+  </text>
+</svg>
