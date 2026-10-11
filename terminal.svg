@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 118" width="900" height="118" role="img" aria-label="whoami: jay_lalkiya, cyber security trainee, builds the attack to find where the detection goes. status: NSQF L4 at Adani Saksham, open to SOC analyst and cybersecurity internship roles">
+  <title>whoami / status</title>
+  <g font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', 'Cascadia Code', Consolas, monospace" font-size="15">
+    <text x="2" y="20"><tspan fill="#3FB950">$</tspan><tspan fill="#8B949E"> whoami</tspan></text>
+    <text x="2" y="46">
+      <tspan fill="#8B949E">jay_lalkiya &#8212; cyber security trainee // builds the </tspan><tspan fill="#F85149" font-weight="700">attack</tspan><tspan fill="#8B949E"> to find where the </tspan><tspan fill="#3FB950" font-weight="700">detection</tspan><tspan fill="#8B949E"> goes</tspan>
+    </text>
+    <text x="2" y="82"><tspan fill="#3FB950">$</tspan><tspan fill="#8B949E"> cat status.txt</tspan></text>
+    <text x="2" y="108">
+      <tspan fill="#8B949E">NSQF L4 @ Adani Saksham &#183; open to </tspan><tspan fill="#3FB950" font-weight="700">SOC analyst</tspan><tspan fill="#8B949E"> / cybersecurity internship roles</tspan>
+    </text>
+  </g>
+</svg>
