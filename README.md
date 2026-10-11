@@ -207,13 +207,6 @@ vulnerability exists rather than only spotting that one does.
 control as first-class concerns: session management, MVC structure, and a schema
 designed around least privilege.
 
-**[Weather Application](https://github.com/jaylalkiya/WeatherApp)**
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=flat-square&logo=javascript&logoColor=39FF14)
-![REST API](https://img.shields.io/badge/REST%20API-0A0E0A?style=flat-square)
-· [live demo](https://weather-app-eight-plum-25.vercel.app) · small project,
-useful practice in validating untrusted API responses and failing cleanly on
-malformed input.
-
 ---
 
 ## ▚ Experience & training
