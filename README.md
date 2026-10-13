@@ -32,7 +32,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 - 🎓 BCA (Hons), CGPA **8.48** / **84.09%** — Bhakta Kavi Narsinh Mehta University
 - 🔐 In progress: NSQF L4 Cyber Security — networking, firewalls, SOC workflows, VAPT
 - 🧠 Interested in: web app security, threat detection, incident response basics
-- 🌐 Portfolio: **[jaylalkiyaportfolio.vercel.app](https://jaylalkiyaportfolio.vercel.app/)**
+- 🌐 Portfolio: **[jaylalkiyaportfolio.pages.dev](https://jaylalkiyaportfolio.pages.dev/)**
 - 💬 Ask me about firewalls & access control, SOC alert triage, or OWASP basics
 - 📫 Reach me at **jaylalkiya02@gmail.com** — open to SOC analyst / cybersecurity internship roles
 
@@ -242,7 +242,7 @@ designed around least privilege.
   <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0E0A?style=for-the-badge&logo=gmail&logoColor=39FF14" /></a>
   <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
   <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
-  <a href="https://jaylalkiyaportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=vercel&logoColor=39FF14" /></a>
+  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=vercel&logoColor=39FF14" /></a>
 </p>
 
 <br />
