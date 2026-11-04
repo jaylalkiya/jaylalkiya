@@ -120,6 +120,10 @@ trigger a Windows Firewall block of the external source, but only in explicit
 check that every rule fires on a synthetic attack capture and that normal
 traffic in it raises zero alerts.
 
+<p align="center">
+  <img src="sentinelids-demo.gif" alt="SentinelIDS demo: Suricata alerts firing on a replayed attack capture, the live dashboard filling with 49 alerts, then 41 of 41 tests passing" width="800" />
+</p>
+
 [![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_NetworkIDS)
 ![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_NetworkIDS?style=flat-square&color=39FF14&labelColor=0A0E0A)
 
