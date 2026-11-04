@@ -31,6 +31,7 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 - 🎓 BCA (Hons), CGPA **8.48** / **84.09%** — Bhakta Kavi Narsinh Mehta University
 - 🔐 In progress: NSQF L4 Cyber Security — networking, firewalls, SOC workflows, VAPT
+- 💼 Interning: CyArt Tech (Red Teaming) and CodeAlpha (Cyber Security)
 - 🧠 Interested in: web app security, threat detection, incident response basics
 - 🌐 Portfolio: **[jaylalkiyaportfolio.pages.dev](https://jaylalkiyaportfolio.pages.dev/)**
 - 💬 Ask me about firewalls & access control, SOC alert triage, or OWASP basics
@@ -53,10 +54,12 @@ My background is in software development (React, Node.js, Java), which turned ou
 ![SOC](https://img.shields.io/badge/SOC%20Monitoring-39FF14?style=for-the-badge&logo=splunk&logoColor=0A0E0A&labelColor=0A0E0A)
 ![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-F85149?style=for-the-badge&logo=kalilinux&logoColor=0A0E0A&labelColor=0A0E0A)
 ![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-39FF14?style=for-the-badge&labelColor=0A0E0A)
+![Suricata](https://img.shields.io/badge/Suricata%20IDS-39FF14?style=for-the-badge&labelColor=0A0E0A)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK%20Mapping-1F8A12?style=for-the-badge&logoColor=39FF14&labelColor=0A0E0A)
 ![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-1F8A12?style=for-the-badge&logo=readthedocs&logoColor=39FF14&labelColor=0A0E0A)
 ![Linux](https://img.shields.io/badge/Linux-1F8A12?style=for-the-badge&logo=linux&logoColor=39FF14&labelColor=0A0E0A)
 ![Python](https://img.shields.io/badge/Python%20Security%20Tooling-39FF14?style=for-the-badge&logo=python&logoColor=0A0E0A&labelColor=0A0E0A)
+![Secure Code Review](https://img.shields.io/badge/Secure%20Code%20Review-1F8A12?style=for-the-badge&logoColor=39FF14&labelColor=0A0E0A)
 
 **Supporting technical background** (used to understand what I'm defending)
 
@@ -67,16 +70,85 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ---
 
-## ▚ GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jaylalkiya&show_icons=true&hide_border=true&title_color=39FF14&icon_color=39FF14&text_color=C9D1D9&bg_color=0A0E0A" alt="Jay's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaylalkiya&layout=compact&hide_border=true&title_color=39FF14&text_color=C9D1D9&bg_color=0A0E0A&langs_count=8" alt="Top languages" />
-</p>
+## ▚ GitHub activity
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=jaylalkiya&hide_border=true&background=0A0E0A&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
 </p>
+
+---
+
+## ▚ Internship work: CodeAlpha
+
+Four security builds from my CodeAlpha internship, each public with its source and docs.
+
+### 🟢 🛡️ SentinelIDS — Network Intrusion Detection
+
+![Suricata](https://img.shields.io/badge/Suricata-0A0E0A?style=flat-square)
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
+![Chart.js](https://img.shields.io/badge/Chart.js-0A0E0A?style=flat-square&logo=chartdotjs&logoColor=39FF14)
+
+A Suricata 7 deployment with 18 custom rules across recon, brute force, web,
+policy and malware, plus a response engine and a live dashboard. Alerts can
+trigger a Windows Firewall block of the external source, but only in explicit
+`--enforce` mode: it dry-runs by default and never blocks LAN hosts. 41 tests
+check that every rule fires on a synthetic attack capture and that normal
+traffic in it raises zero alerts.
+
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_NetworkIDS)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_NetworkIDS?style=flat-square&color=39FF14&labelColor=0A0E0A)
+
+<br />
+
+### 🟢 🔍 Secure Coding Review — Flask App Audit
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
+![Bandit](https://img.shields.io/badge/Bandit-0A0E0A?style=flat-square)
+![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-0A0E0A?style=flat-square&logo=owasp&logoColor=39FF14)
+
+A security audit of NoteVault, a small, deliberately vulnerable Flask app:
+manual review plus Bandit found 12 vulnerabilities, including SQL injection,
+command injection and insecure deserialization. Each has a working exploit test
+that succeeds on the vulnerable build and is blocked on the fixed one, and the
+findings are written up with CWE and OWASP mappings.
+
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_SecureCodingReview?style=flat-square&color=39FF14&labelColor=0A0E0A)
+
+<br />
+
+### 🟢 📦 PacketSentry — Network Sniffer
+
+![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
+![Scapy](https://img.shields.io/badge/Scapy-0A0E0A?style=flat-square)
+![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
+
+A packet sniffer with a CLI and a Wireshark-style GUI that parses ARP, TCP, UDP,
+ICMP and DNS, and flags plaintext credentials and never-encrypted protocols such
+as FTP and Telnet. It reads and writes `.pcap` files, and a synthetic demo capture
+shows every detection firing without sniffing anyone's real traffic.
+
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_PacketSentry)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_PacketSentry?style=flat-square&color=39FF14&labelColor=0A0E0A)
+
+<br />
+
+### 🟢 🎣 PhishGuard — Phishing Awareness Training
+
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=flat-square&logo=javascript&logoColor=39FF14)
+![HTML5](https://img.shields.io/badge/HTML5-0A0E0A?style=flat-square&logo=html5&logoColor=39FF14)
+![CSS3](https://img.shields.io/badge/CSS3-0A0E0A?style=flat-square&logo=css&logoColor=39FF14)
+
+A self-paced, eight-module training site: find the red flags in a realistic email,
+inspect suspicious URLs, play a "Phish or Legit?" game, and take a final quiz that
+unlocks a printable certificate. Case studies cover real incidents such as Twitter
+2020 and MGM 2023.
+
+[![Live demo](https://img.shields.io/badge/Live%20Demo-0A0E0A?style=flat-square&logo=githubpages&logoColor=39FF14)](https://jaylalkiya.github.io/CodeAlpha_PhishingAwareness/)
+[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_PhishingAwareness)
+![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_PhishingAwareness?style=flat-square&color=39FF14&labelColor=0A0E0A)
 
 ---
 
@@ -228,6 +300,12 @@ designed around least privilege.
 
 ## ▚ Experience & training
 
+**Intern, Red Teaming** — CyArt Tech · *Oct 2026 – Present*
+Four-month cybersecurity internship in the Red Teaming domain.
+
+**Cyber Security Intern** — CodeAlpha · *Oct – Nov 2026*
+Built and published a network IDS, a secure coding review, a packet sniffer and a phishing awareness module (see [Internship work](#-internship-work-codealpha)).
+
 **Cyber Security Program, NSQF Level 4** — Adani Saksham, Ahmedabad · *2026 – Present*
 300+ hours covering network foundations, firewalls and access control, audit & compliance, SOC monitoring and escalation, and VAPT in controlled environments.
 
@@ -242,7 +320,7 @@ designed around least privilege.
   <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0E0A?style=for-the-badge&logo=gmail&logoColor=39FF14" /></a>
   <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
   <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
-  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=vercel&logoColor=39FF14" /></a>
+  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=cloudflarepages&logoColor=39FF14" /></a>
 </p>
 
 <br />
