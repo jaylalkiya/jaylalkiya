@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Jay Lalkiya — cyber security trainee, SOC &amp; blue team" width="900" />
+  <img src="banner.svg" alt="Jay Lalkiya — cyber security intern, SOC &amp; blue team" width="900" />
 </p>
 
 <p align="center">
@@ -8,12 +8,12 @@
 
 <p align="center">
   <a href="https://jaylalkiyaportfolio.pages.dev/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=Cyber+Security+Trainee+(NSQF+L4);I+build+honeypots%2C+detectors+and+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=Cyber+Security+Intern;NSQF+L4+Trainee+%40+Adani+Saksham;I+build+honeypots%2C+detectors+and+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="terminal.svg" alt="whoami: jay_lalkiya, cyber security trainee, builds the attack to find where the detection goes. status: NSQF L4 at Adani Saksham, open to SOC analyst and cybersecurity internship roles" width="675" />
+  <img src="terminal.svg" alt="whoami: jay_lalkiya, cyber security intern, builds the attack to find where the detection goes. status: intern at CyArt Tech and CodeAlpha, NSQF L4 at Adani Saksham, open to SOC analyst and security roles" width="675" />
 </p>
 
 <p align="center">
