@@ -21,6 +21,15 @@
   <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=39FF14&labelColor=0A0E0A&logo=github&logoColor=39FF14" alt="Followers" /></a>
 </p>
 
+<p align="center">
+  <a href="#-start-here">Start here</a> ·
+  <a href="#-internship-work-codealpha">Internship work</a> ·
+  <a href="#-security-projects">Projects</a> ·
+  <a href="#-mitre-attck-coverage">ATT&amp;CK coverage</a> ·
+  <a href="#-experience--training">Experience</a> ·
+  <a href="#-say-hi">Contact</a>
+</p>
+
 ---
 
 ## ▚ whoami
@@ -40,10 +49,23 @@ My background is in software development (React, Node.js, Java), which turned ou
 <br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-Ahmedabad,%20India-0A0E0A?style=for-the-badge&logo=googlemaps&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Open%20To-Security%20Internships-0A0E0A?style=for-the-badge&logo=handshake&logoColor=39FF14" />
-  <img src="https://img.shields.io/badge/Availability-Immediate-0A0E0A?style=for-the-badge&logo=clockify&logoColor=39FF14" />
+  <img src="https://img.shields.io/badge/Location-Ahmedabad,%20India-0A0E0A?style=for-the-badge&logo=googlemaps&logoColor=39FF14" alt="Location: Ahmedabad, India" />
+  <img src="https://img.shields.io/badge/Open%20To-Security%20Internships-0A0E0A?style=for-the-badge&logo=handshake&logoColor=39FF14" alt="Open to security internships" />
+  <img src="https://img.shields.io/badge/Availability-Immediate-0A0E0A?style=for-the-badge&logo=clockify&logoColor=39FF14" alt="Availability: immediate" />
 </p>
+
+---
+
+## ▚ Start here
+
+The quickest way to see what I can do:
+
+| Project | What it does | Proof |
+|---|---|---|
+| **[SentinelIDS](https://github.com/jaylalkiya/CodeAlpha_NetworkIDS)** | Suricata network IDS with automated response and a live dashboard | 18 custom rules, 41 passing tests |
+| **[GullakTrap](https://github.com/jaylalkiya/GullakTrap)** | Multi-protocol honeypot that logs credentials and commands | 7 decoy services, events mapped to ATT&CK |
+| **[Wifi-Sentry](https://github.com/jaylalkiya/Wifi-Sentry)** | Passive monitor for evil-twin access points | 7 ATT&CK-mapped rules, no monitor mode needed |
+| **[Secure Coding Review](https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview)** | Audit of a deliberately vulnerable Flask app | 12 vulnerabilities exploited, fixed and retested |
 
 ---
 
@@ -65,6 +87,8 @@ My background is in software development (React, Node.js, Java), which turned ou
 
 ![Java](https://img.shields.io/badge/Java-0A0E0A?style=for-the-badge&logo=openjdk&logoColor=39FF14)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=for-the-badge&logo=javascript&logoColor=39FF14)
+![React](https://img.shields.io/badge/React-0A0E0A?style=for-the-badge&logo=react&logoColor=39FF14)
+![Node.js](https://img.shields.io/badge/Node.js-0A0E0A?style=for-the-badge&logo=nodedotjs&logoColor=39FF14)
 ![MySQL](https://img.shields.io/badge/MySQL-0A0E0A?style=for-the-badge&logo=mysql&logoColor=39FF14)
 ![Git](https://img.shields.io/badge/Git-0A0E0A?style=for-the-badge&logo=git&logoColor=39FF14)
 
@@ -155,8 +179,8 @@ unlocks a printable certificate. Case studies cover real incidents such as Twitt
 ## ▚ Security projects
 
 Five tools, led with the ones closest to the SOC/blue-team work I'm aiming at.
-Each one implements the defensive side *and* the offensive side, because
-building the attack is what taught me where the detection has to go.
+Some build the detection and some build the attack, because building the attack
+is what taught me where the detection has to go.
 🟢 detection / blue-team build &nbsp; &nbsp; 🔴 offensive tooling (built to learn the attack)
 
 ### 🟢 🍯 GullakTrap — Multi-Protocol Honeypot
@@ -284,9 +308,6 @@ below is backed by real, tested code, not an aspirational checklist.
 
 ## ▚ Development background
 
-Before security I built applications, which is why I can reason about *why* a
-vulnerability exists rather than only spotting that one does.
-
 **[CodeShelf](https://github.com/jaylalkiya/CodeShelf)**
 ![Java](https://img.shields.io/badge/Java-0A0E0A?style=flat-square&logo=openjdk&logoColor=39FF14)
 ![JSP](https://img.shields.io/badge/JSP-0A0E0A?style=flat-square)
@@ -317,10 +338,10 @@ Built and published a network IDS, a secure coding review, a packet sniffer and 
 ## ▚ Say hi
 
 <p align="center">
-  <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0E0A?style=for-the-badge&logo=gmail&logoColor=39FF14" /></a>
-  <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" /></a>
-  <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" /></a>
-  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=cloudflarepages&logoColor=39FF14" /></a>
+  <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0E0A?style=for-the-badge&logo=gmail&logoColor=39FF14" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn" /></a>
+  <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" alt="GitHub" /></a>
+  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=cloudflarepages&logoColor=39FF14" alt="Portfolio" /></a>
 </p>
 
 <br />
