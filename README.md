@@ -1,359 +1,105 @@
 <p align="center">
-  <img src="live-monitor-v2.svg" alt="Live security monitor: demo attacks from around the world fly toward Ahmedabad and are caught by my GullakTrap honeypot, with a scrolling event log" width="100%" />
+  <img src="live-monitor-v2.svg" alt="Live security monitor: Jay Lalkiya, cyber security intern. Demo attacks from around the world fly toward Ahmedabad and are caught by the GullakTrap honeypot" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://jaylalkiyaportfolio.pages.dev/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3200&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=Cyber+Security+Intern;NSQF+L4+Trainee+%40+Adani+Saksham;I+build+honeypots%2C+detectors+and+attacks;SOC+Monitoring+%2B+VAPT+Fundamentals;BCA+Honours+%7C+84.09%25" alt="Typing SVG" />
-  </a>
+  <img src="https://hits.sh/github.com/jaylalkiya.svg?style=for-the-badge&label=Profile%20Views&color=4ade80&labelColor=060b12" alt="Profile views" />
+  <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=4ade80&labelColor=060b12&logo=github&logoColor=4ade80" alt="Followers" /></a>
+  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-Open-4ade80?style=for-the-badge&labelColor=060b12&logo=cloudflarepages&logoColor=4ade80" alt="Portfolio" /></a>
 </p>
 
 <p align="center">
-  <img src="terminal.svg" alt="whoami: jay_lalkiya, cyber security intern, builds the attack to find where the detection goes. status: intern at CyArt Tech and CodeAlpha, NSQF L4 at Adani Saksham, open to SOC analyst and security roles" width="675" />
+  <a href="#whoami"><code>[ whoami ]</code></a>&nbsp;
+  <a href="#capabilities"><code>[ capabilities ]</code></a>&nbsp;
+  <a href="#internship-codealpha"><code>[ codealpha ]</code></a>&nbsp;
+  <a href="#security-projects"><code>[ projects ]</code></a>&nbsp;
+  <a href="#attck-coverage"><code>[ att&amp;ck ]</code></a>&nbsp;
+  <a href="#experience"><code>[ experience ]</code></a>&nbsp;
+  <a href="#contact"><code>[ contact ]</code></a>
+</p>
+
+<h2 id="whoami">&#9618; whoami</h2>
+
+<p align="center">
+  <img src="assets/operator.svg" alt="Operator file: Jay Lalkiya, cyber security intern in Ahmedabad. BCA Honours (CGPA 8.48), NSQF Level 4 cyber security trainee at Adani Saksham, red team intern at CyArt Tech, CodeAlpha certified, open to SOC analyst roles" width="100%" />
+</p>
+
+I started as a developer (React, Node.js, Java), so I know how applications are built. That helps me work out *why* a vulnerability exists, not just spot that it does. Now I build the attack to learn where the detection has to go.
+
+<h2 id="capabilities">&#9618; capabilities</h2>
+
+<p align="center">
+  <img src="assets/skills.svg" alt="Capability matrix: detect, defend, attack and build skills" width="100%" />
+</p>
+
+<h2 id="internship-codealpha">&#9618; internship: CodeAlpha</h2>
+
+Four security builds from my CodeAlpha internship (Oct to Nov 2026), each public with source and docs.
+[![Certificate post](https://img.shields.io/badge/Completed-Certificate%20%2B%20LOR-4ade80?style=flat-square&logo=linkedin&logoColor=4ade80&labelColor=060b12)](https://lnkd.in/p/dvjfbfzX)
+
+<p align="center">
+  <a href="https://github.com/jaylalkiya/CodeAlpha_NetworkIDS"><img src="assets/card-sentinelids.svg" alt="SentinelIDS: Suricata network IDS with 18 rules, 41 tests and auto-blocking" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview"><img src="assets/card-codereview.svg" alt="Secure Code Review: 12 vulnerabilities exploited, fixed and retested" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_PacketSentry"><img src="assets/card-packetsentry.svg" alt="PacketSentry: packet sniffer with CLI and GUI" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_PhishingAwareness"><img src="assets/card-phishguard.svg" alt="PhishGuard: eight-module phishing awareness training site" width="49%" /></a>
+</p>
+
+<details>
+<summary><b>&#9656; Watch SentinelIDS catch a replayed attack</b></summary>
+<br />
+<p align="center">
+  <img src="sentinelids-demo.gif" alt="SentinelIDS demo: Suricata alerts firing on a replayed attack capture, the live dashboard filling with 49 alerts, then 41 of 41 tests passing" width="100%" />
+</p>
+</details>
+
+PhishGuard is live: **[try the training site](https://jaylalkiya.github.io/CodeAlpha_PhishingAwareness/)**
+
+<h2 id="security-projects">&#9618; security projects</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mode-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/mode-light.svg" />
+  <img src="assets/mode-dark.svg" alt="Mode banner: defender in dark mode, attacker in light mode" width="100%" />
+</picture>
+
+Green modules catch attacks. Red modules are attacks I built to learn where detection has to go, and they only run against targets I'm authorized to test.
+
+<p align="center">
+  <a href="https://github.com/jaylalkiya/gullaktrap"><img src="assets/card-gullaktrap.svg" alt="GullakTrap: multi-protocol honeypot with 7 decoy services" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/Wifi-Sentry"><img src="assets/card-wifisentry.svg" alt="Wifi-Sentry: passive evil twin access point detector" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/ScopeStorm"><img src="assets/card-scopestorm.svg" alt="ScopeStorm: authorized load testing console gated by rules of engagement" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/Recon-Raptor"><img src="assets/card-reconraptor.svg" alt="ReconRaptor: chained web recon pipeline with HTML report" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/StegoVault"><img src="assets/card-stegovault.svg" alt="StegoVault: encrypted steganography and RS steganalysis" width="49%" /></a>
+</p>
+
+<sub>Developer background: <b><a href="https://github.com/jaylalkiya/CodeShelf">CodeShelf</a></b>, a Java/JSP + MySQL web app built with authentication, role-based access control and least-privilege schema design.</sub>
+
+<h2 id="attck-coverage">&#9618; att&amp;ck coverage</h2>
+
+<p align="center">
+  <img src="assets/attack.svg" alt="MITRE ATT&amp;CK coverage: T1110, T1105, T1557, T1557.004 and T1498" width="100%" />
+</p>
+
+<h2 id="experience">&#9618; experience</h2>
+
+<p align="center">
+  <img src="assets/timeline.svg" alt="Experience timeline: CyArt Tech red team intern, CodeAlpha cyber security intern, Adani Saksham NSQF L4 program, TechRover Solutions developer intern" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://hits.sh/github.com/jaylalkiya.svg?style=for-the-badge&label=Profile%20Views&color=39FF14&labelColor=0A0E0A" alt="Profile views" />
-  <a href="https://github.com/jaylalkiya?tab=followers"><img src="https://img.shields.io/github/followers/jaylalkiya?label=Followers&style=for-the-badge&color=39FF14&labelColor=0A0E0A&logo=github&logoColor=39FF14" alt="Followers" /></a>
+  <img src="https://streak-stats.demolab.com/?user=jaylalkiya&hide_border=true&background=060b12&stroke=4ade80&ring=4ade80&fire=ff6b6b&currStreakLabel=c6d4e3&sideLabels=c6d4e3&dates=6f87a3&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
 </p>
+
+<h2 id="contact">&#9618; contact</h2>
 
 <p align="center">
-  <a href="#-start-here">Start here</a> ·
-  <a href="#-internship-work-codealpha">Internship work</a> ·
-  <a href="#-security-projects">Projects</a> ·
-  <a href="#-mitre-attck-coverage">ATT&amp;CK coverage</a> ·
-  <a href="#-experience--training">Experience</a> ·
-  <a href="#-say-hi">Contact</a>
+  <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-060b12?style=for-the-badge&logo=gmail&logoColor=4ade80" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-060b12?style=for-the-badge&logo=linkedin&logoColor=4ade80" alt="LinkedIn" /></a>
+  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-060b12?style=for-the-badge&logo=cloudflarepages&logoColor=4ade80" alt="Portfolio" /></a>
 </p>
-
----
-
-## ▚ whoami
-
-I'm a final-year **BCA (Honours)** student from **Gujarat**, currently working through a **300+ hour NSQF Level 4 Cyber Security program** at Adani Saksham — covering network foundations, firewalls & access control, audit & compliance, SOC monitoring/escalation, and VAPT fundamentals in controlled lab environments.
-
-My background is in software development (React, Node.js, Java), which turned out to be a real advantage on the security side — I understand how applications are actually built, so I can reason about *why* a vulnerability exists, not just recognize that one does.
-
-- 🎓 BCA (Hons), CGPA **8.48** / **84.09%** — Bhakta Kavi Narsinh Mehta University
-- 🔐 In progress: NSQF L4 Cyber Security — networking, firewalls, SOC workflows, VAPT
-- 💼 Interning: CyArt Tech (Red Teaming) and CodeAlpha (Cyber Security)
-- 🧠 Interested in: web app security, threat detection, incident response basics
-- 🌐 Portfolio: **[jaylalkiyaportfolio.pages.dev](https://jaylalkiyaportfolio.pages.dev/)**
-- 💬 Ask me about firewalls & access control, SOC alert triage, or OWASP basics
-- 📫 Reach me at **jaylalkiya02@gmail.com** — open to SOC analyst / cybersecurity internship roles
-
-<br />
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Ahmedabad,%20India-0A0E0A?style=for-the-badge&logo=googlemaps&logoColor=39FF14" alt="Location: Ahmedabad, India" />
-  <img src="https://img.shields.io/badge/Open%20To-Security%20Internships-0A0E0A?style=for-the-badge&logo=handshake&logoColor=39FF14" alt="Open to security internships" />
-  <img src="https://img.shields.io/badge/Availability-Immediate-0A0E0A?style=for-the-badge&logo=clockify&logoColor=39FF14" alt="Availability: immediate" />
-</p>
-
----
-
-## ▚ Start here
-
-The quickest way to see what I can do:
-
-| Project | What it does | Proof |
-|---|---|---|
-| **[SentinelIDS](https://github.com/jaylalkiya/CodeAlpha_NetworkIDS)** | Suricata network IDS with automated response and a live dashboard | 18 custom rules, 41 passing tests |
-| **[GullakTrap](https://github.com/jaylalkiya/GullakTrap)** | Multi-protocol honeypot that logs credentials and commands | 7 decoy services, events mapped to ATT&CK |
-| **[Wifi-Sentry](https://github.com/jaylalkiya/Wifi-Sentry)** | Passive monitor for evil-twin access points | 7 ATT&CK-mapped rules, no monitor mode needed |
-| **[Secure Coding Review](https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview)** | Audit of a deliberately vulnerable Flask app | 12 vulnerabilities exploited, fixed and retested |
-
----
-
-## ▚ Security skills
-
-![Networking](https://img.shields.io/badge/Networking%20Fundamentals-1F8A12?style=for-the-badge&logo=cisco&logoColor=39FF14&labelColor=0A0E0A)
-![Firewalls](https://img.shields.io/badge/Firewalls%20%26%20Access%20Control-1F8A12?style=for-the-badge&logo=cloudflare&logoColor=39FF14&labelColor=0A0E0A)
-![SOC](https://img.shields.io/badge/SOC%20Monitoring-39FF14?style=for-the-badge&logo=splunk&logoColor=0A0E0A&labelColor=0A0E0A)
-![VAPT](https://img.shields.io/badge/VAPT%20Fundamentals-F85149?style=for-the-badge&logo=kalilinux&logoColor=0A0E0A&labelColor=0A0E0A)
-![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-39FF14?style=for-the-badge&labelColor=0A0E0A)
-![Suricata](https://img.shields.io/badge/Suricata%20IDS-39FF14?style=for-the-badge&labelColor=0A0E0A)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK%20Mapping-1F8A12?style=for-the-badge&logoColor=39FF14&labelColor=0A0E0A)
-![Audit](https://img.shields.io/badge/Audit%20%26%20Compliance-1F8A12?style=for-the-badge&logo=readthedocs&logoColor=39FF14&labelColor=0A0E0A)
-![Linux](https://img.shields.io/badge/Linux-1F8A12?style=for-the-badge&logo=linux&logoColor=39FF14&labelColor=0A0E0A)
-![Python](https://img.shields.io/badge/Python%20Security%20Tooling-39FF14?style=for-the-badge&logo=python&logoColor=0A0E0A&labelColor=0A0E0A)
-![Secure Code Review](https://img.shields.io/badge/Secure%20Code%20Review-1F8A12?style=for-the-badge&logoColor=39FF14&labelColor=0A0E0A)
-
-**Supporting technical background** (used to understand what I'm defending)
-
-![Java](https://img.shields.io/badge/Java-0A0E0A?style=for-the-badge&logo=openjdk&logoColor=39FF14)
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=for-the-badge&logo=javascript&logoColor=39FF14)
-![React](https://img.shields.io/badge/React-0A0E0A?style=for-the-badge&logo=react&logoColor=39FF14)
-![Node.js](https://img.shields.io/badge/Node.js-0A0E0A?style=for-the-badge&logo=nodedotjs&logoColor=39FF14)
-![MySQL](https://img.shields.io/badge/MySQL-0A0E0A?style=for-the-badge&logo=mysql&logoColor=39FF14)
-![Git](https://img.shields.io/badge/Git-0A0E0A?style=for-the-badge&logo=git&logoColor=39FF14)
-
----
-
-## ▚ GitHub activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jaylalkiya&hide_border=true&background=0A0E0A&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
-</p>
-
----
-
-## ▚ Internship work: CodeAlpha
-
-Four security builds from my CodeAlpha internship, each public with its source and docs.
-
-[![Certificate post](https://img.shields.io/badge/Completed-Certificate%20%2B%20LOR-39FF14?style=flat-square&logo=linkedin&logoColor=39FF14&labelColor=0A0E0A)](https://lnkd.in/p/dvjfbfzX)
-
-### 🟢 🛡️ SentinelIDS — Network Intrusion Detection
-
-![Suricata](https://img.shields.io/badge/Suricata-0A0E0A?style=flat-square)
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
-![Chart.js](https://img.shields.io/badge/Chart.js-0A0E0A?style=flat-square&logo=chartdotjs&logoColor=39FF14)
-
-A Suricata 7 deployment with 18 custom rules across recon, brute force, web,
-policy and malware, plus a response engine and a live dashboard. Alerts can
-trigger a Windows Firewall block of the external source, but only in explicit
-`--enforce` mode: it dry-runs by default and never blocks LAN hosts. 41 tests
-check that every rule fires on a synthetic attack capture and that normal
-traffic in it raises zero alerts.
-
-<p align="center">
-  <img src="sentinelids-demo.gif" alt="SentinelIDS demo: Suricata alerts firing on a replayed attack capture, the live dashboard filling with 49 alerts, then 41 of 41 tests passing" width="800" />
-</p>
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_NetworkIDS)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_NetworkIDS?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
-<br />
-
-### 🟢 🔍 Secure Coding Review — Flask App Audit
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
-![Bandit](https://img.shields.io/badge/Bandit-0A0E0A?style=flat-square)
-![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-0A0E0A?style=flat-square&logo=owasp&logoColor=39FF14)
-
-A security audit of NoteVault, a small, deliberately vulnerable Flask app:
-manual review plus Bandit found 12 vulnerabilities, including SQL injection,
-command injection and insecure deserialization. Each has a working exploit test
-that succeeds on the vulnerable build and is blocked on the fixed one, and the
-findings are written up with CWE and OWASP mappings.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_SecureCodingReview?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
-<br />
-
-### 🟢 📦 PacketSentry — Network Sniffer
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Scapy](https://img.shields.io/badge/Scapy-0A0E0A?style=flat-square)
-![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
-
-A packet sniffer with a CLI and a Wireshark-style GUI that parses ARP, TCP, UDP,
-ICMP and DNS, and flags plaintext credentials and never-encrypted protocols such
-as FTP and Telnet. It reads and writes `.pcap` files, and a synthetic demo capture
-shows every detection firing without sniffing anyone's real traffic.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_PacketSentry)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_PacketSentry?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
-<br />
-
-### 🟢 🎣 PhishGuard — Phishing Awareness Training
-
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0E0A?style=flat-square&logo=javascript&logoColor=39FF14)
-![HTML5](https://img.shields.io/badge/HTML5-0A0E0A?style=flat-square&logo=html5&logoColor=39FF14)
-![CSS3](https://img.shields.io/badge/CSS3-0A0E0A?style=flat-square&logo=css&logoColor=39FF14)
-
-A self-paced, eight-module training site: find the red flags in a realistic email,
-inspect suspicious URLs, play a "Phish or Legit?" game, and take a final quiz that
-unlocks a printable certificate. Case studies cover real incidents such as Twitter
-2020 and MGM 2023.
-
-[![Live demo](https://img.shields.io/badge/Live%20Demo-0A0E0A?style=flat-square&logo=githubpages&logoColor=39FF14)](https://jaylalkiya.github.io/CodeAlpha_PhishingAwareness/)
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/CodeAlpha_PhishingAwareness)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/CodeAlpha_PhishingAwareness?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
----
-
-## ▚ Security projects
-
-Five tools, led with the ones closest to the SOC/blue-team work I'm aiming at.
-Some build the detection and some build the attack, because building the attack
-is what taught me where the detection has to go.
-🟢 detection / blue-team build &nbsp; &nbsp; 🔴 offensive tooling (built to learn the attack)
-
-### 🟢 🍯 GullakTrap — Multi-Protocol Honeypot
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Flask](https://img.shields.io/badge/Flask-0A0E0A?style=flat-square&logo=flask&logoColor=39FF14)
-![SQLite](https://img.shields.io/badge/SQLite-0A0E0A?style=flat-square&logo=sqlite&logoColor=39FF14)
-![Paramiko](https://img.shields.io/badge/Paramiko-0A0E0A?style=flat-square)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-0A0E0A?style=flat-square)
-
-Seven decoy services — HTTP, FTP, SSH, Telnet, SMB, SMTP, SNMP — that log every
-credential tried and every command run. The SSH sensor serves a fake filesystem
-and records inter-keystroke timing, so a session replays at the speed it was
-typed. Each event is scored and mapped to an ATT&CK technique, and a bundled
-red-team simulator speaks all seven protocols so the detection chain can be
-proven end to end.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/gullaktrap)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/gullaktrap?style=flat-square&color=39FF14&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/gullaktrap?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
-<br />
-
-### 🟢 📡 Wifi-Sentry — Rogue Access Point Monitor
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Windows](https://img.shields.io/badge/Windows-0A0E0A?style=flat-square&logo=windows&logoColor=39FF14)
-![T1557](https://img.shields.io/badge/ATT%26CK-T1557-0A0E0A?style=flat-square&labelColor=0A0E0A)
-![T1498](https://img.shields.io/badge/ATT%26CK-T1498-0A0E0A?style=flat-square&labelColor=0A0E0A)
-
-Detects evil-twin access points without monitor mode or Npcap, by reading the
-beacon metadata Windows already collects. An attacker can clone an SSID in five
-seconds, but not the BSSID behind it — so the tool baselines the real radios and
-alerts on a name broadcast from a MAC that was never there. Passive only: never
-transmits, never deauthenticates, never captures traffic.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/Wifi-Sentry)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/Wifi-Sentry?style=flat-square&color=39FF14&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Wifi-Sentry?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
-<br />
-
-### 🔴 🌩️ ScopeStorm — Authorized Load & Resilience Console
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
-![Threading](https://img.shields.io/badge/Threading-0A0E0A?style=flat-square)
-![SHA-256 Audit Chain](https://img.shields.io/badge/SHA--256%20Audit%20Chain-0A0E0A?style=flat-square)
-
-Generates controlled HTTP load — but refuses to fire until a Rules-of-Engagement
-file authorizes the exact target, the concurrency / RPS ceilings, and the time
-window, and it aborts itself the moment error rate or p95 latency crosses the
-configured thresholds. Every run is written to a tamper-evident, hash-chained
-audit log that verifies on read, so any later edit or deletion breaks the chain
-and the whole engagement can be proven after the fact. The project was really
-about the guardrails: building a load tool that physically can't be pointed
-somewhere it wasn't cleared for.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=F85149)](https://github.com/jaylalkiya/ScopeStorm)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/ScopeStorm?style=flat-square&color=F85149&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/ScopeStorm?style=flat-square&color=F85149&labelColor=0A0E0A)
-
-<br />
-
-### 🔴 🦅 ReconRaptor — Chained Web Recon Pipeline
-
-![Bash](https://img.shields.io/badge/Bash-0A0E0A?style=flat-square&logo=gnubash&logoColor=39FF14)
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![Tkinter](https://img.shields.io/badge/Tkinter-0A0E0A?style=flat-square)
-![nmap](https://img.shields.io/badge/nmap-0A0E0A?style=flat-square)
-![nuclei](https://img.shields.io/badge/nuclei-0A0E0A?style=flat-square)
-![nikto](https://img.shields.io/badge/nikto-0A0E0A?style=flat-square)
-
-Chains the standard web-recon tools — nmap, whatweb, gobuster/feroxbuster,
-nikto, nuclei, subfinder/httpx — into a single authorized run, writes every
-step to a per-target folder, and rolls the results into a severity-ranked
-HTML + JSON report, from the CLI or a dark Tkinter console. Per-step timeouts,
-graceful skipping of missing tools, resumable runs, and *structured* output
-(nmap XML, nikto JSON, nuclei JSONL) so the report is parsed from machine data
-rather than screen-scraped. The point of chaining it was to see exactly how
-much noise a full recon sweep drops into a defender's logs — which is where the
-detection work starts. Runs only against targets you're authorized to test.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=F85149)](https://github.com/jaylalkiya/Recon-Raptor)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/Recon-Raptor?style=flat-square&color=F85149&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/Recon-Raptor?style=flat-square&color=F85149&labelColor=0A0E0A)
-
-<br />
-
-### 🟢 🖼️ StegoVault — Steganography & Steganalysis
-
-![Python](https://img.shields.io/badge/Python-0A0E0A?style=flat-square&logo=python&logoColor=39FF14)
-![AES-256-GCM](https://img.shields.io/badge/AES--256--GCM-0A0E0A?style=flat-square)
-![PBKDF2](https://img.shields.io/badge/PBKDF2-0A0E0A?style=flat-square)
-![RS Analysis](https://img.shields.io/badge/RS%20Analysis-0A0E0A?style=flat-square)
-
-Hides an encrypted message in the low bit of a PNG, then detects it. The
-passphrase goes through PBKDF2 at 200,000 iterations; a wrong key or a single
-flipped bit is refused rather than silently mangled. The detector implements RS
-Analysis (Fridrich, Goljan & Du, 2001) and scores any image 0–100 — including
-images produced by other tools, which is how I know it isn't just recognising
-its own output.
-
-[![Repo](https://img.shields.io/badge/Code-0A0E0A?style=flat-square&logo=github&logoColor=39FF14)](https://github.com/jaylalkiya/StegoVault)
-![Stars](https://img.shields.io/github/stars/jaylalkiya/StegoVault?style=flat-square&color=39FF14&labelColor=0A0E0A)
-![Last commit](https://img.shields.io/github/last-commit/jaylalkiya/StegoVault?style=flat-square&color=39FF14&labelColor=0A0E0A)
-
----
-
-## ▚ MITRE ATT&CK coverage
-
-Techniques actually detected or implemented by the tools above — every badge
-below is backed by real, tested code, not an aspirational checklist.
-
-**GullakTrap**
-![T1110](https://img.shields.io/badge/T1110-Brute%20Force-39FF14?style=flat-square&labelColor=0A0E0A)
-![T1105](https://img.shields.io/badge/T1105-Ingress%20Tool%20Transfer-39FF14?style=flat-square&labelColor=0A0E0A)
-
-**Wifi-Sentry**
-![T1557](https://img.shields.io/badge/T1557-Adversary--in--the--Middle-39FF14?style=flat-square&labelColor=0A0E0A)
-![T1557.004](https://img.shields.io/badge/T1557.004-Evil%20Twin-39FF14?style=flat-square&labelColor=0A0E0A)
-![T1498](https://img.shields.io/badge/T1498-Network%20DoS-39FF14?style=flat-square&labelColor=0A0E0A)
-
----
-
-## ▚ Development background
-
-**[CodeShelf](https://github.com/jaylalkiya/CodeShelf)**
-![Java](https://img.shields.io/badge/Java-0A0E0A?style=flat-square&logo=openjdk&logoColor=39FF14)
-![JSP](https://img.shields.io/badge/JSP-0A0E0A?style=flat-square)
-![MySQL](https://img.shields.io/badge/MySQL-0A0E0A?style=flat-square&logo=mysql&logoColor=39FF14)
-![Tomcat](https://img.shields.io/badge/Tomcat-0A0E0A?style=flat-square&logo=apachetomcat&logoColor=39FF14)
-· multi-module web app built with authentication and role-based access
-control as first-class concerns: session management, MVC structure, and a schema
-designed around least privilege.
-
----
-
-## ▚ Experience & training
-
-**Intern, Red Teaming** — CyArt Tech · *Oct 2026 – Present*
-Four-month cybersecurity internship in the Red Teaming domain.
-
-**Cyber Security Intern** — CodeAlpha · *Oct – Nov 2026*
-Built and published a network IDS, a secure coding review, a packet sniffer and a phishing awareness module (see [Internship work](#-internship-work-codealpha)). Completed with a certificate and letter of recommendation ([LinkedIn post](https://lnkd.in/p/dvjfbfzX)).
-
-**Cyber Security Program, NSQF Level 4** — Adani Saksham, Ahmedabad · *2026 – Present*
-300+ hours covering network foundations, firewalls and access control, audit & compliance, SOC monitoring and escalation, and VAPT in controlled environments.
-
-**React.js and Node.js Developer Intern** — TechRover Solutions · *Dec 2025 – Jan 2026*
-120 hours building a full application (auth, REST APIs, PostgreSQL schema design). Included here because understanding how apps are built end-to-end directly informs how I think about where they break.
-
----
-
-## ▚ Say hi
-
-<p align="center">
-  <a href="mailto:jaylalkiya02@gmail.com"><img src="https://img.shields.io/badge/Email-0A0E0A?style=for-the-badge&logo=gmail&logoColor=39FF14" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/jay-lalkiya-527149302/"><img src="https://img.shields.io/badge/LinkedIn-0A0E0A?style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn" /></a>
-  <a href="https://github.com/jaylalkiya"><img src="https://img.shields.io/badge/GitHub-0A0E0A?style=for-the-badge&logo=github&logoColor=39FF14" alt="GitHub" /></a>
-  <a href="https://jaylalkiyaportfolio.pages.dev/"><img src="https://img.shields.io/badge/Portfolio-0A0E0A?style=for-the-badge&logo=cloudflarepages&logoColor=39FF14" alt="Portfolio" /></a>
-</p>
-
-<br />
 
 <p align="center">
   <img src="soc-board.svg" alt="SOC status board: zero days since last false positive, infinity alerts triaged today, coffee to code ratio unhealthy" width="420" />
 </p>
 
-<br />
-
-<p align="center">
-  <i>"Understand how it's built to understand how it breaks."</i>
-</p>
+<p align="center"><i>"Understand how it's built to understand how it breaks."</i></p>
