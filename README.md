@@ -106,6 +106,8 @@ The quickest way to see what I can do:
 
 Four security builds from my CodeAlpha internship, each public with its source and docs.
 
+[![Certificate post](https://img.shields.io/badge/Completed-Certificate%20%2B%20LOR-39FF14?style=flat-square&logo=linkedin&logoColor=39FF14&labelColor=0A0E0A)](https://lnkd.in/p/dvjfbfzX)
+
 ### 🟢 🛡️ SentinelIDS — Network Intrusion Detection
 
 ![Suricata](https://img.shields.io/badge/Suricata-0A0E0A?style=flat-square)
@@ -329,7 +331,7 @@ designed around least privilege.
 Four-month cybersecurity internship in the Red Teaming domain.
 
 **Cyber Security Intern** — CodeAlpha · *Oct – Nov 2026*
-Built and published a network IDS, a secure coding review, a packet sniffer and a phishing awareness module (see [Internship work](#-internship-work-codealpha)).
+Built and published a network IDS, a secure coding review, a packet sniffer and a phishing awareness module (see [Internship work](#-internship-work-codealpha)). Completed with a certificate and letter of recommendation ([LinkedIn post](https://lnkd.in/p/dvjfbfzX)).
 
 **Cyber Security Program, NSQF Level 4** — Adani Saksham, Ahmedabad · *2026 – Present*
 300+ hours covering network foundations, firewalls and access control, audit & compliance, SOC monitoring and escalation, and VAPT in controlled environments.
