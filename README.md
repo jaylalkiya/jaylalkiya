@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="live-monitor-v2.svg" alt="Live security monitor: Jay Lalkiya, cyber security intern. Demo attacks from around the world fly toward Ahmedabad and are caught by the GullakTrap honeypot" width="100%" />
+  <picture><source media="(max-width: 1011px)" srcset="assets/live-monitor-m.svg" /><img src="live-monitor-v2.svg" alt="Live security monitor: Jay Lalkiya, cyber security intern. Demo attacks from around the world fly toward Ahmedabad and are caught by the GullakTrap honeypot" width="100%" /></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(max-width: 1011px)" srcset="assets/activity-m.svg" /><img src="assets/activity.svg" alt="Live feed of my real GitHub activity: latest commits, contribution count, current streak and a 21 week heatmap. Updated automatically twice a day" width="100%" /></picture>
 </p>
 
 <p align="center">
@@ -21,7 +25,7 @@
 <h2 id="whoami">&#9618; whoami</h2>
 
 <p align="center">
-  <img src="assets/operator.svg" alt="Operator file: Jay Lalkiya, cyber security intern in Ahmedabad. BCA Honours (CGPA 8.48), NSQF Level 4 cyber security trainee at Adani Saksham, red team intern at CyArt Tech, CodeAlpha certified, open to SOC analyst roles" width="100%" />
+  <picture><source media="(max-width: 1011px)" srcset="assets/operator-m.svg" /><img src="assets/operator.svg" alt="Operator file: Jay Lalkiya, cyber security intern in Ahmedabad. BCA Honours (CGPA 8.48), NSQF Level 4 cyber security trainee at Adani Saksham, red team intern at CyArt Tech, CodeAlpha certified, open to SOC analyst roles" width="100%" /></picture>
 </p>
 
 I started as a developer (React, Node.js, Java), so I know how applications are built. That helps me work out *why* a vulnerability exists, not just spot that it does. Now I build the attack to learn where the detection has to go.
@@ -29,7 +33,7 @@ I started as a developer (React, Node.js, Java), so I know how applications are 
 <h2 id="capabilities">&#9618; capabilities</h2>
 
 <p align="center">
-  <img src="assets/skills.svg" alt="Capability matrix: detect, defend, attack and build skills" width="100%" />
+  <picture><source media="(max-width: 1011px)" srcset="assets/skills-m.svg" /><img src="assets/skills.svg" alt="Capability matrix: detect, defend, attack and build skills" width="100%" /></picture>
 </p>
 
 <h2 id="internship-codealpha">&#9618; internship: CodeAlpha</h2>
@@ -38,10 +42,10 @@ Four security builds from my CodeAlpha internship (Oct to Nov 2026), each public
 [![Certificate post](https://img.shields.io/badge/Completed-Certificate%20%2B%20LOR-4ade80?style=flat-square&logo=linkedin&logoColor=4ade80&labelColor=060b12)](https://lnkd.in/p/dvjfbfzX)
 
 <p align="center">
-  <a href="https://github.com/jaylalkiya/CodeAlpha_NetworkIDS"><img src="assets/card-sentinelids.svg" alt="SentinelIDS: Suricata network IDS with 18 rules, 41 tests and auto-blocking" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview"><img src="assets/card-codereview.svg" alt="Secure Code Review: 12 vulnerabilities exploited, fixed and retested" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/CodeAlpha_PacketSentry"><img src="assets/card-packetsentry.svg" alt="PacketSentry: packet sniffer with CLI and GUI" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/CodeAlpha_PhishingAwareness"><img src="assets/card-phishguard.svg" alt="PhishGuard: eight-module phishing awareness training site" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_NetworkIDS"><picture><source media="(max-width: 1011px)" srcset="assets/card-sentinelids-m.svg" /><img src="assets/card-sentinelids.svg" alt="SentinelIDS: Suricata network IDS with 18 rules, 41 tests and auto-blocking" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_SecureCodingReview"><picture><source media="(max-width: 1011px)" srcset="assets/card-codereview-m.svg" /><img src="assets/card-codereview.svg" alt="Secure Code Review: 12 vulnerabilities exploited, fixed and retested" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_PacketSentry"><picture><source media="(max-width: 1011px)" srcset="assets/card-packetsentry-m.svg" /><img src="assets/card-packetsentry.svg" alt="PacketSentry: packet sniffer with CLI and GUI" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/CodeAlpha_PhishingAwareness"><picture><source media="(max-width: 1011px)" srcset="assets/card-phishguard-m.svg" /><img src="assets/card-phishguard.svg" alt="PhishGuard: eight-module phishing awareness training site" width="49%" /></picture></a>
 </p>
 
 <details>
@@ -57,7 +61,8 @@ PhishGuard is live: **[try the training site](https://jaylalkiya.github.io/CodeA
 <h2 id="security-projects">&#9618; security projects</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/mode-dark.svg" />
+  <source media="(max-width: 1011px) and (prefers-color-scheme: light)" srcset="assets/mode-light-m.svg" />
+  <source media="(max-width: 1011px)" srcset="assets/mode-dark-m.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/mode-light.svg" />
   <img src="assets/mode-dark.svg" alt="Mode banner: defender in dark mode, attacker in light mode" width="100%" />
 </picture>
@@ -65,11 +70,11 @@ PhishGuard is live: **[try the training site](https://jaylalkiya.github.io/CodeA
 Green modules catch attacks. Red modules are attacks I built to learn where detection has to go, and they only run against targets I'm authorized to test.
 
 <p align="center">
-  <a href="https://github.com/jaylalkiya/gullaktrap"><img src="assets/card-gullaktrap.svg" alt="GullakTrap: multi-protocol honeypot with 7 decoy services" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/Wifi-Sentry"><img src="assets/card-wifisentry.svg" alt="Wifi-Sentry: passive evil twin access point detector" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/ScopeStorm"><img src="assets/card-scopestorm.svg" alt="ScopeStorm: authorized load testing console gated by rules of engagement" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/Recon-Raptor"><img src="assets/card-reconraptor.svg" alt="ReconRaptor: chained web recon pipeline with HTML report" width="49%" /></a>
-  <a href="https://github.com/jaylalkiya/StegoVault"><img src="assets/card-stegovault.svg" alt="StegoVault: encrypted steganography and RS steganalysis" width="49%" /></a>
+  <a href="https://github.com/jaylalkiya/gullaktrap"><picture><source media="(max-width: 1011px)" srcset="assets/card-gullaktrap-m.svg" /><img src="assets/card-gullaktrap.svg" alt="GullakTrap: multi-protocol honeypot with 7 decoy services" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/Wifi-Sentry"><picture><source media="(max-width: 1011px)" srcset="assets/card-wifisentry-m.svg" /><img src="assets/card-wifisentry.svg" alt="Wifi-Sentry: passive evil twin access point detector" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/ScopeStorm"><picture><source media="(max-width: 1011px)" srcset="assets/card-scopestorm-m.svg" /><img src="assets/card-scopestorm.svg" alt="ScopeStorm: authorized load testing console gated by rules of engagement" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/Recon-Raptor"><picture><source media="(max-width: 1011px)" srcset="assets/card-reconraptor-m.svg" /><img src="assets/card-reconraptor.svg" alt="ReconRaptor: chained web recon pipeline with HTML report" width="49%" /></picture></a>
+  <a href="https://github.com/jaylalkiya/StegoVault"><picture><source media="(max-width: 1011px)" srcset="assets/card-stegovault-m.svg" /><img src="assets/card-stegovault.svg" alt="StegoVault: encrypted steganography and RS steganalysis" width="49%" /></picture></a>
 </p>
 
 <sub>Developer background: <b><a href="https://github.com/jaylalkiya/CodeShelf">CodeShelf</a></b>, a Java/JSP + MySQL web app built with authentication, role-based access control and least-privilege schema design.</sub>
@@ -77,13 +82,13 @@ Green modules catch attacks. Red modules are attacks I built to learn where dete
 <h2 id="attck-coverage">&#9618; att&amp;ck coverage</h2>
 
 <p align="center">
-  <img src="assets/attack.svg" alt="MITRE ATT&amp;CK coverage: T1110, T1105, T1557, T1557.004 and T1498" width="100%" />
+  <picture><source media="(max-width: 1011px)" srcset="assets/attack-m.svg" /><img src="assets/attack.svg" alt="MITRE ATT&amp;CK coverage: T1110, T1105, T1557, T1557.004 and T1498" width="100%" /></picture>
 </p>
 
 <h2 id="experience">&#9618; experience</h2>
 
 <p align="center">
-  <img src="assets/timeline.svg" alt="Experience timeline: CyArt Tech red team intern, CodeAlpha cyber security intern, Adani Saksham NSQF L4 program, TechRover Solutions developer intern" width="100%" />
+  <picture><source media="(max-width: 1011px)" srcset="assets/timeline-m.svg" /><img src="assets/timeline.svg" alt="Experience timeline: CyArt Tech red team intern, CodeAlpha cyber security intern, Adani Saksham NSQF L4 program, TechRover Solutions developer intern" width="100%" /></picture>
 </p>
 
 <p align="center">
