@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="live-monitor.svg" alt="Live security monitor: demo attacks from around the world fly toward Ahmedabad and are caught by my GullakTrap honeypot, with a scrolling event log" width="100%" />
+  <img src="live-monitor-v2.svg" alt="Live security monitor: demo attacks from around the world fly toward Ahmedabad and are caught by my GullakTrap honeypot, with a scrolling event log" width="100%" />
 </p>
 
 <p align="center">
