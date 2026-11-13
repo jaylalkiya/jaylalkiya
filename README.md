@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Jay Lalkiya — cyber security intern, SOC &amp; blue team" width="900" />
-</p>
-
-<p align="center">
-  <img src="status.svg" alt="Status: monitoring, zero active alerts, uptime online" width="300" />
+  <img src="live-monitor.svg" alt="Live security monitor: demo attacks from around the world fly toward Ahmedabad and are caught by my GullakTrap honeypot, with a scrolling event log" width="100%" />
 </p>
 
 <p align="center">
