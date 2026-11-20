@@ -165,7 +165,8 @@ CARDS = [("card-sentinelids-m.svg", "DETECTION", "SentinelIDS", "Network IDS tha
          ("card-wifisentry-m.svg", "DETECTION", "Wifi-Sentry", "Catches fake (evil twin) WiFi", "passive", GREEN),
          ("card-scopestorm-m.svg", "OFFENSIVE", "ScopeStorm", "Load tester locked to permission", "RoE gated", RED),
          ("card-reconraptor-m.svg", "OFFENSIVE", "ReconRaptor", "One-click web recon with report", "8 tools", RED),
-         ("card-stegovault-m.svg", "CRYPTO", "StegoVault", "Hides encrypted text in images", "AES-256", BLUE)]
+         ("card-stegovault-m.svg", "CRYPTO", "StegoVault", "Hides encrypted text in images", "AES-256", BLUE),
+         ("card-mitmtracker-m.svg", "DETECTION", "MITM Tracker", "Detects and undoes MITM attacks", "ARP + DHCP", GREEN)]
 
 
 def cards():
