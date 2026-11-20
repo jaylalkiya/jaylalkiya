@@ -83,7 +83,7 @@ Green modules catch attacks. Red modules are attacks I built to learn where dete
 <h2 id="attck-coverage">&#9618; att&amp;ck coverage</h2>
 
 <p align="center">
-  <picture><source media="(max-width: 1011px)" srcset="assets/attack-m.svg" /><img src="assets/attack.svg" alt="MITRE ATT&amp;CK coverage: T1110, T1105, T1557, T1557.004 and T1498" width="100%" /></picture>
+  <picture><source media="(max-width: 1011px)" srcset="assets/attack-m.svg" /><img src="assets/attack.svg" alt="MITRE ATT&amp;CK coverage: T1110, T1105, T1557, T1557.002, T1557.003, T1557.004 and T1498" width="100%" /></picture>
 </p>
 
 <h2 id="experience">&#9618; experience</h2>

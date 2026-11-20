@@ -119,10 +119,10 @@ CARDS = [
  ("card-phishguard.svg", 4, "AWARENESS", "PhishGuard", "Eight-module phishing training site: spot red flags, inspect URLs, play Phish or Legit, pass the final quiz.", ["8 modules", "live site", "quiz"], AMBER),
  ("card-gullaktrap.svg", 5, "DETECTION", "GullakTrap", "Multi-protocol honeypot. Seven decoy services log every password tried and every command run, mapped to ATT&CK.", ["7 services", "SSH replay", "ATT&CK"], GREEN),
  ("card-wifisentry.svg", 6, "DETECTION", "Wifi-Sentry", "Passive evil-twin detector. Baselines real access points and alerts when a known SSID appears from a new BSSID.", ["no monitor mode", "T1557", "passive"], GREEN),
- ("card-scopestorm.svg", 7, "OFFENSIVE", "ScopeStorm", "Authorized load-testing console. Refuses to run without a rules-of-engagement file and logs to a hash-chained audit log.", ["RoE gated", "auto-abort", "SHA-256 log"], RED),
- ("card-reconraptor.svg", 8, "OFFENSIVE", "ReconRaptor", "Chains nmap, whatweb, nikto, nuclei and more into one authorized run with a severity-ranked HTML report.", ["nmap", "nuclei", "HTML report"], RED),
- ("card-stegovault.svg", 9, "CRYPTO", "StegoVault", "Hides AES-256-GCM encrypted messages in PNG images, then detects hidden data with RS steganalysis.", ["AES-256-GCM", "PBKDF2", "RS analysis"], BLUE),
- ("card-mitmtracker.svg", 10, "DETECTION", "MITM Tracker", "Windows defence console. Fingerprints the trusted network, tells ARP spoofing, rogue DHCP and evil twins apart, and undoes each.", ["ARP spoofing", "rogue DHCP", "T1557.002"], GREEN),
+ ("card-mitmtracker.svg", 7, "DETECTION", "MITM Tracker", "Windows defence console. Fingerprints the trusted network, tells ARP spoofing, rogue DHCP and evil twins apart, and undoes each.", ["ARP spoofing", "rogue DHCP", "T1557.002"], GREEN),
+ ("card-scopestorm.svg", 8, "OFFENSIVE", "ScopeStorm", "Authorized load-testing console. Refuses to run without a rules-of-engagement file and logs to a hash-chained audit log.", ["RoE gated", "auto-abort", "SHA-256 log"], RED),
+ ("card-reconraptor.svg", 9, "OFFENSIVE", "ReconRaptor", "Chains nmap, whatweb, nikto, nuclei and more into one authorized run with a severity-ranked HTML report.", ["nmap", "nuclei", "HTML report"], RED),
+ ("card-stegovault.svg", 10, "CRYPTO", "StegoVault", "Hides AES-256-GCM encrypted messages in PNG images, then detects hidden data with RS steganalysis.", ["AES-256-GCM", "PBKDF2", "RS analysis"], BLUE),
 ]
 
 # ---------------------------------------------------------------- ATT&CK coverage
@@ -131,10 +131,13 @@ def attack():
     tiles = [("T1110", "Brute Force", "Credential Access", "GullakTrap", RED),
              ("T1105", "Ingress Tool Transfer", "Command and Control", "GullakTrap", AMBER),
              ("T1557", "Adversary-in-the-Middle", "Credential Access", "Wifi-Sentry", RED),
+             ("T1557.002", "ARP Cache Poisoning", "Credential Access", "MITM Tracker", RED),
+             ("T1557.003", "DHCP Spoofing", "Credential Access", "MITM Tracker", RED),
              ("T1557.004", "Evil Twin", "Credential Access", "Wifi-Sentry", RED),
              ("T1498", "Network Denial of Service", "Impact", "Wifi-Sentry", AMBER)]
-    h = 44 + 24 + 2 * 112 + 14 + 22
-    b = header(w, "MITRE ATT&CK // DETECTION COVERAGE", "5 TECHNIQUES", RED)
+    rows = -(-len(tiles) // 3)
+    h = 44 + 24 + rows * 112 + (rows - 1) * 14 + 22
+    b = header(w, "MITRE ATT&CK // DETECTION COVERAGE", f"{len(tiles)} TECHNIQUES", RED)
     tw = (w - 48 - 2 * 14) / 3
     for i, (tid, name, tac, tool, c) in enumerate(tiles):
         r, col = divmod(i, 3)
@@ -146,11 +149,17 @@ def attack():
         b += T(x + 16, y + 56, esc(name), 15, WHITE, 700)
         b += T(x + 16, y + 78, esc(tac.upper()), 11, MUTED, 400, 'letter-spacing="1.5"')
         b += T(x + 16, y + 99, "DETECTED BY &#9656; " + tool, 11, GREEN, 700, 'letter-spacing="1"')
-    x, y = 24 + 2 * (tw + 14), 68 + 126
-    b += f'<rect x="{x:.1f}" y="{y}" width="{tw:.1f}" height="112" rx="8" fill="none" stroke="{LINE}" stroke-dasharray="6 6"/>'
-    b += T(x + tw / 2, y + 50, "EVERY TILE IS BACKED", 12, MUTED, 700, 'text-anchor="middle" letter-spacing="1.5"')
-    b += T(x + tw / 2, y + 72, "BY TESTED CODE", 12, MUTED, 700, 'text-anchor="middle" letter-spacing="1.5"')
-    write("attack.svg", svg(w, h, "MITRE ATT&CK coverage: T1110 Brute Force and T1105 Ingress Tool Transfer detected by GullakTrap; T1557 Adversary-in-the-Middle, T1557.004 Evil Twin and T1498 Network Denial of Service detected by Wifi-Sentry", b))
+    used = len(tiles) % 3
+    if used:   # the note fills whatever is left of the last row
+        x, y = 24 + used * (tw + 14), 68 + (rows - 1) * 126
+        fw = (3 - used) * tw + (2 - used) * 14
+        b += f'<rect x="{x:.1f}" y="{y}" width="{fw:.1f}" height="112" rx="8" fill="none" stroke="{LINE}" stroke-dasharray="6 6"/>'
+        if used == 2:
+            b += T(x + fw / 2, y + 50, "EVERY TILE IS BACKED", 12, MUTED, 700, 'text-anchor="middle" letter-spacing="1.5"')
+            b += T(x + fw / 2, y + 72, "BY TESTED CODE", 12, MUTED, 700, 'text-anchor="middle" letter-spacing="1.5"')
+        else:
+            b += T(x + fw / 2, y + 61, "EVERY TILE IS BACKED BY TESTED CODE", 12, MUTED, 700, 'text-anchor="middle" letter-spacing="1.5"')
+    write("attack.svg", svg(w, h, "MITRE ATT&CK coverage: T1110 Brute Force and T1105 Ingress Tool Transfer detected by GullakTrap; T1557 Adversary-in-the-Middle, T1557.004 Evil Twin and T1498 Network Denial of Service detected by Wifi-Sentry; T1557.002 ARP Cache Poisoning and T1557.003 DHCP Spoofing detected by MITM Tracker", b))
 
 # ---------------------------------------------------------------- experience timeline
 def timeline():
