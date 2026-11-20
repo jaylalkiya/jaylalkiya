@@ -122,6 +122,7 @@ CARDS = [
  ("card-scopestorm.svg", 7, "OFFENSIVE", "ScopeStorm", "Authorized load-testing console. Refuses to run without a rules-of-engagement file and logs to a hash-chained audit log.", ["RoE gated", "auto-abort", "SHA-256 log"], RED),
  ("card-reconraptor.svg", 8, "OFFENSIVE", "ReconRaptor", "Chains nmap, whatweb, nikto, nuclei and more into one authorized run with a severity-ranked HTML report.", ["nmap", "nuclei", "HTML report"], RED),
  ("card-stegovault.svg", 9, "CRYPTO", "StegoVault", "Hides AES-256-GCM encrypted messages in PNG images, then detects hidden data with RS steganalysis.", ["AES-256-GCM", "PBKDF2", "RS analysis"], BLUE),
+ ("card-mitmtracker.svg", 10, "DETECTION", "MITM Tracker", "Windows defence console. Fingerprints the trusted network, tells ARP spoofing, rogue DHCP and evil twins apart, and undoes each.", ["ARP spoofing", "rogue DHCP", "T1557.002"], GREEN),
 ]
 
 # ---------------------------------------------------------------- ATT&CK coverage
