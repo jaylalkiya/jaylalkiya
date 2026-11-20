@@ -185,9 +185,11 @@ def cards():
 # ------------------------------------------------------------------ ATT&CK
 def attack():
     tiles = [("T1110", "Brute Force", "GullakTrap", RED), ("T1105", "Ingress Tool Transfer", "GullakTrap", AMBER),
-             ("T1557", "Adversary-in-the-Middle", "Wifi-Sentry", RED), ("T1557.004", "Evil Twin", "Wifi-Sentry", RED),
+             ("T1557", "Adversary-in-the-Middle", "Wifi-Sentry", RED),
+             ("T1557.002", "ARP Cache Poisoning", "MITM Tracker", RED), ("T1557.003", "DHCP Spoofing", "MITM Tracker", RED),
+             ("T1557.004", "Evil Twin", "Wifi-Sentry", RED),
              ("T1498", "Network DoS", "Wifi-Sentry", AMBER)]
-    b = head("MITRE ATT&CK", "5 TECHNIQUES DETECTED", RED)
+    b = head("MITRE ATT&CK", f"{len(tiles)} TECHNIQUES DETECTED", RED)
     y = 96
     for i, (tid, name, tool, c) in enumerate(tiles):
         b += f'<rect x="24" y="{y}" width="552" height="96" rx="10" fill="{PANEL}" stroke="{c}" stroke-opacity=".5"/>'
@@ -195,7 +197,7 @@ def attack():
         b += T(44, y + 40, tid, 26, c, 800) + T(44, y + 76, esc(name), 21, WHITE, 700)
         b += T(556, y + 40, "&#9656; " + tool, 17, GREEN, 700, 'text-anchor="end"')
         y += 110
-    svg("attack-m.svg", W, y + 6, "MITRE ATT&CK coverage: T1110, T1105, T1557, T1557.004, T1498", b)
+    svg("attack-m.svg", W, y + 6, "MITRE ATT&CK coverage: T1110, T1105, T1557, T1557.002, T1557.003, T1557.004, T1498", b)
 
 
 # ------------------------------------------------------------------ timeline
